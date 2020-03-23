@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getProdutoById</title>
+</head>
+
+<body>
+    <h1>Produto View</h1>
+    <div th:if="${produto != null}">
+        <p>Código: <span th:text="${produto?.codigo}"></span></p>
+        <p>Nome: <span th:text="${produto?.nome}"></span></p>
+        <p>valor: <span th:text="${produto?.valor}"></span></p>
+        <p>Estoque: <span th:text="${produto?.estoque}"></span></p>
+    </div>
+    <h2 th:text="${erro?.message}"></h2>
+</body>
+
+</html>
