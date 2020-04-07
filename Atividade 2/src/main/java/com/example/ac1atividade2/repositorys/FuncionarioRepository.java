@@ -1,6 +1,6 @@
 package com.example.ac1atividade2.repositorys;
 
-import com.example.ac1atividade2.entities.Funcionario;
+import com.example.ac1atividade2.models.Funcionario;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

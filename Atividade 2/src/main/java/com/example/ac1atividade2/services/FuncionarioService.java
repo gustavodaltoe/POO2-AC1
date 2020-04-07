@@ -2,7 +2,7 @@ package com.example.ac1atividade2.services;
 
 import java.util.List;
 
-import com.example.ac1atividade2.entities.Funcionario;
+import com.example.ac1atividade2.models.Funcionario;
 
 import com.example.ac1atividade2.repositorys.FuncionarioRepository;
 

@@ -1,4 +1,4 @@
-package com.example.ac1atividade2.entities;
+package com.example.ac1atividade2.models;
 
 import java.io.Serializable;
 
