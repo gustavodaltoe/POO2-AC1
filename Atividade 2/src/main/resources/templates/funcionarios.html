@@ -8,6 +8,14 @@
 </head>
 
 <body>
+    <h1>Funcionarios</h1>
+    <form th:action="@{/funcionarios}" method="POST">
+        <input name="nome" placeholder="Nome" />
+        <input name="cargo" placeholder="Cargo" />
+        <input name="setor" placeholder="Setor" />
+        <input type="number" name="salario" placeholder="Salário" />
+        <input type="submit" value="Cadastrar" />
+    </form>
     <table>
         <tr th:each="funcionario : ${funcionarios}">
             <td th:text="${funcionario.id}"></td>
